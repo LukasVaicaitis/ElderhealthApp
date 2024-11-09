@@ -5,7 +5,7 @@ This simple app is responsible only for accessing the Fitbit API and fetching th
 ## How it works:
 1.	Log in with Fitbit: Use your Fitbit account to allow access to your health data.
 2.	Log in with ElderHealth: Enter your ElderHealth credentials (register on the ElderHealth website if needed).
-3.	Data Fetching: The app retrieves heart rate data from your Fitbit account every ~5 minutes and sends it to ElderHealth.
+3.	Data Fetching: The app retrieves heart rate data from your Fitbit account with a delay of ~5 minutes and sends it to ElderHealth.
 
 ### Screenshots:
 
