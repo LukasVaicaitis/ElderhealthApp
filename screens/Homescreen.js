@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Button } from 'react-native';
 
-const Homescreen = ({ userName, handleLogout }) => {
+const Homescreen = ({ userName, handleLogout, handleRefresh }) => {
   return (
     <View style={styles.container}>
       <Text style={styles.welcomeText}>
@@ -14,6 +14,7 @@ const Homescreen = ({ userName, handleLogout }) => {
         Norėdami peržiūrėti savo sveikatos duomenis prisijunkite prie ElderHealth svetainės.
       </Text>
       <Button title="Atsijungti" onPress={handleLogout} />
+      <Button title="Atnaujinti duomenis" onPress={handleRefresh} />
     </View>
   );
 };

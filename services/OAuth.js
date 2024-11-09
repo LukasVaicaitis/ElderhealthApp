@@ -1,5 +1,4 @@
 import { Linking } from 'react-native';
-import * as SecureStore from 'expo-secure-store'; // Import SecureStore from Expo
 import qs from 'qs';
 import config from '../config';
 
@@ -16,7 +15,7 @@ function OAuth(cb) {
   }
 
   const oauthurl = `https://www.fitbit.com/oauth2/authorize?${qs.stringify({
-    client_id: config.client_id, // Use config.client_id
+    client_id: config.client_id,
     response_type: 'token',
     scope: 'heartrate activity activity profile',
     redirect_uri: 'exp://',

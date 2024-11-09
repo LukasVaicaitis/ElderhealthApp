@@ -29,7 +29,7 @@ const Loginscreen = ({ accessToken, setUserId, setUserName }) => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.heading}>Prisijunkite su savo ElderHealth paskyra</Text>
+            <Text style={styles.heading}>Prisijungti</Text>
             <TextInput
                 style={styles.input}
                 placeholder="El. paštas"
@@ -79,12 +79,11 @@ const styles = StyleSheet.create({
     },
     button: {
         width: '80%',
-        height: 90,
-        marginBottom: 50,
+        height: 50,
+        marginBottom: 20,
         backgroundColor: 'midnightblue',
     },
     createAccountText: {
-        marginTop: 20,
         fontSize: 16,
         color: 'grey',
     },
