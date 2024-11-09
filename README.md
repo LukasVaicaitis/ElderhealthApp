@@ -20,4 +20,6 @@ Planned features:
 1. Ability to fetch step, distance and sleep data(Fitbit authorization is required to access sleep data).
 2. Ability for the app to run in the background.
 
+Note: Due to an unexpected loss of the latest code, the current version may not compile. Efforts were made to restore progress; however, the application could not be fully tested with the ElderHealth server.
+
 by Lukas Vaic
