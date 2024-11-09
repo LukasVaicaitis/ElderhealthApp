@@ -1,11 +1,13 @@
-**Elderhealth-Fitbit Data fetcher application**
+# Elderhealth-Fitbit Data fetcher application
 
 This simple app is responsible only for accessing the Fitbit API and fetching the heartrate data from a Fitbit watch and then sending it to the Elderhealth server.
 
-The app works in a linear way:
-1. You log in with your Fitbit account.
-2. You log in with your Elderhealth account(Registration happens in the Elderhealth website).
-3. The app fetches the heartrate data associated with the fitbit account with a delay of ~5 minutes.
+## How it works:
+1.	Log in with Fitbit: Use your Fitbit account to allow access to your health data.
+2.	Log in with ElderHealth: Enter your ElderHealth credentials (register on the ElderHealth website if needed).
+3.	Data Fetching: The app retrieves heart rate data from your Fitbit account every ~5 minutes and sends it to ElderHealth.
+
+### Screenshots:
 
 Splash screen:
 
@@ -16,10 +18,8 @@ Main screen (before login):
 
 ![ss2](https://github.com/user-attachments/assets/dc908b7e-f302-4405-b257-ba0985d6eae9)
 
-Planned features:
+## Planned features:
 1. Ability to fetch step, distance and sleep data(Fitbit authorization is required to access sleep data).
 2. Ability for the app to run in the background.
 
 Note: Due to an unexpected loss of the latest code, the current version may not compile. Efforts were made to restore progress; however, the application could not be fully tested with the ElderHealth server.
-
-by Lukas Vaic
